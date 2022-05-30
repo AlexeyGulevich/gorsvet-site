@@ -1,0 +1,18 @@
+body {
+    background-image: url(/img/bckgrnd.png);
+    background-repeat: repeat;
+    font-size: 1.2rem;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #e1fcfc;
+}
+
+footer a > img {
+    width: 312px;
+    height: 87px;
+}
