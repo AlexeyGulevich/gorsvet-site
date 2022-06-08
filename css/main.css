@@ -16,3 +16,7 @@ footer a > img {
     width: 312px;
     height: 87px;
 }
+
+footer p > a {
+    white-space: nowrap;
+}
