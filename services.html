@@ -26,11 +26,11 @@
 
             var param = (new URLSearchParams(document.location.search)).get("collapse");
             if (param) {
+                window.scrollBy(0, -(document.getElementsByClassName('navbar')[0].offsetHeight));
                 var myCollapse = document.getElementById(param)
                 var bsCollapse = new bootstrap.Collapse(myCollapse, {
                     toggle: true
                 })
-                window.scrollBy(0, -(document.getElementsByClassName('navbar')[0].offsetHeight));
             }
 
         }
@@ -49,7 +49,7 @@
     <!-- MENU.begin -->
 
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark gx-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark gx-2 gx-md-5">
             <div class="container-fluid">
                 <a class="navbar-brand row row-2 d-flex align-items-center" href="index.html">
                     <div class="col col-auto">
